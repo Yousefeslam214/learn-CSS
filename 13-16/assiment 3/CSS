@@ -1,0 +1,26 @@
+div{
+color:black;
+background-color: #eee;
+padding:20px;
+font-size: 19.5px;
+margin: 28px auto;
+width: 400px;
+outline:10px;
+direction: ltr;
+}
+
+div.two {
+     overflow: hidden;
+text-indent: 5px;
+   white-space : nowrap; 
+   text-overflow: ellipsis;
+  
+
+   
+
+}
+div.three {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
