@@ -1,0 +1,26 @@
+div{
+background-color: #eee;
+margin:20px;
+width: 400px;
+padding: 10px;
+
+outline: 10px solid #eee;
+
+}
+.one{
+    
+    border-left : 10px solid red;
+
+}
+.two{
+
+  visibility: hidden;
+
+
+}
+.three{
+
+
+    
+    border-left : 10px solid green;
+}
