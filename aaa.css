@@ -1,0 +1,26 @@
+div{
+color: black; 
+background-color: #eee;
+display:inline-block;
+height: 50px;
+width: 150px;
+}
+
+
+.one{
+
+    border:5px;
+    border-style: solid;
+     
+     
+     
+}
+.two{
+
+
+}
+.three{
+
+    border:5px;
+    border-style: dashed;
+}
