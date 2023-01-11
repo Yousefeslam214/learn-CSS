@@ -19,7 +19,7 @@ table {
     color: #FFF;
     font-weight: bold;
     text-align: center;
-    border-color: #5c1f1a;
+    
   }
 .red{
     background-color: rgb(255, 0, 0);
