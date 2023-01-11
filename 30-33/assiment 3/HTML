@@ -1,0 +1,43 @@
+<!DOCTYdivE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+ <body>
+  <div class="one">
+  <ul>
+    <li>
+      HTML
+      <ol>
+        <li>Slim</li>
+        <li>Pugjs</li>
+        <li>HAML</li>
+      </ol>
+    </li>
+  </div>
+    <div class="two">
+    <li>
+      CSS
+      <ol>
+        <li>SASS</li>
+        <li>LESS</li>
+        <li>PostCSS</li>
+      </ol>
+    </li>
+  </div>
+  <div class="three">
+    <li>
+      JavaScript
+      <ul>
+        <li>Vuejs</li>
+        <li>Sveltejs</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+ </body>
+</html>
