@@ -1,0 +1,34 @@
+.parent{
+    max-width: 10000px;
+    margin: 20px auto;
+    background-color: #eee;
+    overflow: hidden;
+}
+.one,
+.one-forth,
+.one-half,
+.one-third{
+    background-color: rgb(127, 125, 125) ;
+    text-align: center;
+    padding: 20px 0px ;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin: 15px;
+    float: left;
+    text-transform: capitalize;
+}
+.one{
+   width: calc(100% - 30px);
+}
+.one-third{
+    width: calc((100% - 15px*6) / 3);
+}
+.one-half{
+    width: calc((100% - 15px*4) / 2);
+}
+.one-forth{
+       width:calc((100% - 15px *8)/4);
+}
+.clear{
+    clear: both;
+}
