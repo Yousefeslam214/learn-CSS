@@ -1,0 +1,100 @@
+<!DOCTYdivE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+ <body>
+
+  <table>
+    <thead>
+      <tr>
+        <td>avatar</td>
+        <td>group</td>
+        <td>name</td>
+        <td>points</td>
+        <td>control</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <tr><td><img src="download.jpeg"></td>
+        <td>ninja</td>
+        <td>ahmed mohamed</td>
+        <td>120</td>
+        <td class="ee">
+                   <span class="red">
+                  view
+                   </span>
+                   <span class="blue">
+                  delete
+                  </span>   
+        </td>
+      </tr>
+      <tr>
+        <td><img src="download.jpeg"></td>
+        <td rowspan="2">shades</td>
+        <td>shaby nabil</td>
+        <td>180</td>
+        <td> <span class="red">
+          view
+           </span>
+           <span class="blue">
+          delete
+          </span>   </td>
+      </tr>
+      <tr>
+        <td><img src="download.jpeg"></td>
+        <td>eman mohamed</td>
+        <td>160</td>
+        <td> <span class="red">
+          view
+           </span>
+           <span class="blue">
+          delete
+          </span>   </td>
+      </tr>
+      <tr>
+        <td><img src="download.jpeg"></td>
+        <td rowspan="2">valhala</td>
+        <td>mohamed ibrahim</td>
+        <td>190</td>
+        <td> <span class="red">
+          view
+           </span>
+           <span class="blue">
+          delete
+          </span>   </td>
+      </tr>
+      <tr>
+        <td><img src="download.jpeg"></td>
+        <td>noor atef</td>
+        <td>110</td>
+        <td> <span class="red">
+          view
+           </span>
+           <span class="blue">
+          delete
+          </span>   </td>
+      </tr>
+      <tr>
+        <td><img src="download.jpeg"></td>
+        <td >union</td>
+        <td>mohamed adel</td>
+        <td>90</td>
+        <td> <span class="red">
+          view
+           </span>
+           <span class="blue">
+          delete
+          </span>   </td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+ </body>
+</html>
