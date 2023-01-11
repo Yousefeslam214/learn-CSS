@@ -1,0 +1,22 @@
+div{
+    background-color: #eee;
+    width: 400px;
+    
+    padding: 0px 5px 5px 0px;
+    margin: 20px;
+}
+  ul li ol li{
+    list-style-type:decimal;
+    background-color: white;
+    border:3px solid #eee;
+}
+li ol li{
+    list-style-type:upper-roman;
+    background-color: white;
+    border:3px solid #eee;
+}
+li ul li{
+    list-style-type: circle;
+    background-color: white;
+    border:3px solid #eee;
+}
