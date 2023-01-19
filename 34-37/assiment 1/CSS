@@ -1,0 +1,20 @@
+div{
+  text-align: center;
+width:300px ;
+height: 60px;
+background-color: #eee;
+color: black;
+margin: 20px auto;
+line-height: 60px;
+font-size: 20px;
+
+}
+
+
+
+div:empty{
+ background-color: red;
+
+
+
+}
