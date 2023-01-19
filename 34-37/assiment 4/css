@@ -1,0 +1,21 @@
+p{
+background-color: #eee;
+padding: 20px;
+display: inline-block;
+border-right: 5px solid red;
+width: 400px;
+counter-increment:members-counter;
+position: relative;
+right: -40px;
+margin: 5px;
+}
+p::before{
+padding: 20px;
+  content: "" counter(members-counter);
+  left: -40px;
+  position: absolute;
+  top:calc(50% - 30px);
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
