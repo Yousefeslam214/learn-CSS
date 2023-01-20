@@ -1,0 +1,132 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent{
+width: 550px;
+position: relative;
+margin: 20px auto;
+}
+.one{
+padding: 20px;
+background-color: #eee;
+display: inline-block ;
+margin-right: 70px;
+
+}
+.two{
+  padding: 20px;
+  background-color: #eee;
+  display: inline-block ;
+}
+.free{
+      background-color: rgb(220, 217, 217);
+      padding: 20px;
+      height: 100px;
+      width: 100px;
+     
+      text-align: center;
+      font-weight: bold;
+      font-size: 30PX;
+      margin: 50px auto;
+      display: inline-block ;
+      border-radius: 100px;
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      -ms-border-radius: 100px;
+      -o-border-radius: 100px;
+      border-radius: 50%;
+      width: 185px;
+      height: 185px;
+      line-height: 185px;
+      position: relative ;
+      top: 50px;
+      
+}
+.free::after{
+content: "Basic";
+background-color: rgb(0, 157, 255);
+position: absolute;
+top: -85px;
+    left: 15px;
+color:white;
+height:45px;
+line-height: 45px;
+width: calc(80% );
+font-size: 20px;
+}
+.free::before{
+content: "";
+width: 2px;
+height: 320px;
+background-color: rgb(0, 157, 255);
+position:  absolute  ;
+left: 236px;
+    top: -117px;
+    
+}
+.dolar{
+      background-color: rgb(220, 217, 217);
+      padding: 20px;
+      height: 100px;
+      width: 100px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 30PX;
+      margin: 50px auto;
+      display: inline-block ;
+      width: calc(80% );
+      border-radius: 100px;
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      -ms-border-radius: 100px;
+      -o-border-radius: 100px;
+      width: 185px;
+      height: 185px;
+      line-height: 185px;
+      position: relative ;
+      top: 50px;
+}
+.dolar::after{
+
+  content: "Pro";
+  background-color: rgb(0, 157, 255);
+  position: absolute;
+  top: -85px;
+      left: 15px;
+  color:white;
+  height:45px;
+  line-height: 45px;
+  width: calc(80% );
+  font-size: 20px;
+
+
+
+
+}
+.dolar::before{
+content: "Or";
+background-color: rgb(0, 157, 255);
+  position: absolute;
+  top: 25px;
+    left: -79px;
+  color:white;
+  float: left;
+  
+
+  font-size: 14px;
+  line-height: 45px;
+  width: 35px;
+  height:35px;
+
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+
+
+}
