@@ -1,0 +1,32 @@
+.parent{ background-color: #eeeeee;
+   text-transform: capitalize;
+    margin: 20px auto;
+     width:500px;
+      padding: 20px;
+       text-align: center;
+        font-size: 25px;
+         height: 250px;
+          transition: all .5s ease ;
+           -webkit-transition: all .5s ease ;
+            -moz-transition: all .5s ease ;
+             -ms-transition: all .5s ease ;
+              -o-transition: all .5s ease ;
+}
+.parent:hover{
+  margin-top: 0px;
+  transition: all .5s ease ;
+}
+.child{
+background-color: #bfbdbd;
+padding: 20px;
+margin: 20px auto;
+
+}
+.parent:hover   .child{
+  margin-top: 50px;
+  transition: all 1s ease-in-out ;
+  -webkit-transition: all 1s ease-in-out ;
+  -moz-transition: all 1s ease-in-out ;
+  -ms-transition: all 1s ease-in-out ;
+  -o-transition: all 1s ease-in-out ;
+}
