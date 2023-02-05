@@ -1,0 +1,37 @@
+.parent{
+
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: 10px auto ;
+    display: flex;
+    padding: 10px;
+    
+    
+
+    flex-flow: column wrap;
+    
+    justify-content: space-evenly;
+   align-items: flex-end;
+    
+    }
+    div{
+    background-color: #009688;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    width: 30px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+   
+    .two{
+  align-self: flex-start;
+  width: 300px;
+    }
+   
+    
+    
