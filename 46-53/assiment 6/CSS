@@ -1,0 +1,110 @@
+.page{
+
+    background-color: #eee;
+   height: 500px;
+    margin: 10px auto ;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    
+
+    }
+.logo,
+.links,
+.content,
+.sidebar,
+.footer {
+    background-color: rgb(194 194 194);
+}
+    
+
+
+
+
+.header {
+   
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: space-evenly;
+   
+   
+    flex-flow: row;
+    align-items: center;
+    
+  }
+     .logo{
+
+width: 10%;
+align-items: center;
+height: 100%;
+display: flex;
+justify-content:center;
+   }
+   .links{
+width: 80%;
+height: 100%;
+
+align-items: center;
+list-style: none;
+display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  
+   }
+
+
+
+
+
+
+   .main-area{
+   
+    display: flex;
+    width: 100%;
+    height: 60%;
+    justify-content: space-evenly;
+    flex-flow: row;
+    
+   
+   
+    
+   }
+   .content{
+   width: 67%;
+
+   justify-content: flex-start;
+   align-items: flex-start;
+   align-content:space-evenly;
+   padding: 10px;
+   }
+   .sidebar{
+   width: 23%;
+ 
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+
+   }
+
+
+
+
+
+
+
+
+
+
+   .footer{
+    
+    display: flex;
+    width: 94%;
+    height: 15%;
+    justify-content: space-between;
+    flex-flow: row;
+    align-items: center;
+    align-self: center;
+    padding: 0 10px;
+    
+   }
