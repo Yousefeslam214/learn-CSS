@@ -1,0 +1,52 @@
+      div{
+    width: 600px;
+    margin: auto;
+    background-color: #eee;
+    display: relative;
+    text-align: center;
+    line-height: 90px;
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+::first-letter {
+    color: #F44336;
+  }
+  div::before{
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(
+        to right,
+        #d35400 20%,
+        #2980b9 20%,
+        #2980b9 40%,
+        #27ae60 40%,
+        #27ae60 60%,
+        #c0392b 60%,
+        
+        #d35400 60%,
+       
+       
+       
+       
+      );
+      background-image: linear-gradient(
+        to right,
+        #d35400 20%,
+        #2980b9 20%,
+        #2980b9 40%,
+        #27ae60 40%,
+        #27ae60 60%,
+        #c0392b 60%,
+        #c0392b 80%,
+        #8e44ad 80%,
+        #8e44ad 100%
+      );
+      width: 634px;
+      height: 113px;
+      z-index: -1;
+      top: -4px;
+      left: 116px;
+
+
+  }
