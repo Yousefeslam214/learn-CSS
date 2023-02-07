@@ -1,0 +1,43 @@
+div{
+    width: 600px;
+    background-color: #eee;
+    margin: 10px auto;
+    line-height: 60px;
+    position: relative;
+   color: rgba(0, 0, 0, 0.578);
+   
+    font-size: 30px;
+    padding: 0px 20px;
+}
+.zero{
+color: black;
+
+
+}
+div::before {
+
+             content: "";
+             background-image: linear-gradient(
+             to right,
+             red 50% ,
+             green 50%,
+             green 100%
+
+
+
+
+
+             );
+
+            position: absolute;
+            top: 59px;
+            left: 0px;
+            width: 640px;
+            height: 5%;
+
+
+
+
+
+
+}
