@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+ <body>
+  <div class="one">
+  <span>osama mohamed</span>
+  <p>full-stack developer</p>
+  <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit repellendus deserunt quisquam incidunt nihil voluptate hic, quibusdam unde laboriosam, voluptatem ipsum? Cumque nulla eum animi.</h2>
+  <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident labore veniam ad obcaecati, ex debitis animi<img src="kk.png" alt=""></h3>
+  
+</div>
+
+
+<div class="two">
+  <span>ahmed sayed</span>
+  <p>full-stack developer</p>
+  <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit repellendus deserunt quisquam i</h2>
+  <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident labore veniam ad obcaecati, ex debitis. <img src="kk.png" alt=""></h3>
+ 
+</div>
+
+
+<div class="three">
+  <span>ahmed sayed</span>
+  <p>full-stack developer</p>
+  <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit repellendus deserunt quisquam i</h2>
+  <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident labore veniam ad obcaecati, ex debitis. <img src="kk.png" alt=""></h3>
+ 
+</div>
+
+
+
+<div class="four">
+  <span>ahmed sayed</span>
+  <p>full-stack developer</p>
+  <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit repellendus deserunt quisquam incidunt nihil voluptate hic, quibusdam unde laboriosam, voluptatem ipsum? Cumque nulla eum animi, excepturi asperiores possimus aperiam iure.</h2>
+  <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident labore veniam ad obcaecati, ex debitis animi, recusandae excepturi, vel maxime delectus id laboriosam laudantium perferendis mollitia atque perspiciatis laborum assumenda.<img src="kk.png" alt=""></h3>
+  
+</div>
+
+<div class="five">
+  <span>ahmed sayed</span>
+  <p>full-stack developer</p>
+  <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit repellendus deserunt quisquam incidunt nihil voluptate hic, quibusdam unde laboriosam, voluptatem ipsum? Cumque nulla eum animi, excepturi asperiores possimus aperiam iure.</h2>
+  <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident labore veniam ad obcaecati, ex debitis animi, recusandae excepturi, vel maxime delectus id laboriosam laudantium perferendis mollitia atque perspiciatis laborum assumenda.<img src="kk.png" alt=""></h3>
+  
+</div>
+
+<div class="six">
+  <span>ahmed sayed</span>
+  <p>full-stack developer</p>
+  <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit repellendus deserunt quisquam incidunt nihil voluptate hic, quibusdam unde laboriosam, voluptatem ipsum? Cumque nulla eum animi, excepturi asperiores possimus aperiam iure.</h2>
+  <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident labore veniam ad obcaecati, ex debitis animi, recusandae excepturi, vel maxime delectus id laboriosam laudantium perferendis mollitia atque perspiciatis laborum assumenda. <img src="kk.png" alt=""></h3>
+ 
+</div>
+
+<div class="seven">
+  <span>ahmed sayed</span>
+  <p>full-stack developer</p>
+  <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit repellendus deserunt quisquam incidunt nihil voluptate hic, quibusdam unde laboriosam, voluptatem ipsum? .</h2>
+  <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident labore veniam ad obcaecati, ex debitis animi, recusandae excepturi,<img src="kk.png" alt=""></h3>
+  
+</div>
+
+<div class="eight">
+  <span>ahmed sayed</span>
+  <p>full-stack developer</p>
+  <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit repellendus deserunt quisquam incidunt nihil voluptate hic, quibusdam unde laboriosam,.</h2>
+  <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident labore veniam ad obcaecati, ex debitis animi, recusandae excepturi.<img src="kk.png" alt=""></h3>
+
+</div>
+
+<div class="nine">
+  <span>ahmed sayed</span>
+  <p>full-stack developer</p>
+  <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit repellendus deserunt quisquam incidunt nihil voluptate hic, quibusdam unde laboriosam, voluptatem ipsum? .</h2>
+  <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident labore veniam ad obcaecati, ex debitis animi, recusandae excepturi.<img src="kk.png" alt=""></h3>
+
+</div>
+
+<div class="ten">
+  <span>ahmed sayed</span>
+  <p>full-stack developer</p>
+  <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit repellendus deserunt quisquam incidunt nihil voluptate hic, quibusdam unde laboriosam, voluptatem ipsum? .</h2>
+  <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident labore veniam ad obcaecati, ex debitis animi, recusandae excepturi, <img src="kk.png" alt=""></h3>
+
+</div>
+ </body>
+</html>
