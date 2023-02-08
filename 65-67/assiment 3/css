@@ -1,0 +1,59 @@
+div{
+    width: 200px;
+    height: 200px;
+    margin:100px auto;
+    background-color: #eee;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: xx-large;
+    position: relative;
+    border-radius: 100px ;
+    -webkit-border-radius: 100px ;
+    -moz-border-radius: 100px ;
+    -ms-border-radius: 100px ;
+    -o-border-radius: 100px ;
+   
+}
+div::after{
+    content: "";
+    position: absolute ;
+    border: 10px solid ;
+    border-color:#2196F3 transparent #2196F3 #2196F3;
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    top: -21px;
+    left: -18px;
+    transition: .5s transform;
+}
+div::before{
+    content: "";
+    position: absolute ;
+    border: 10px solid ;
+    border-color: rgb(233 30 99)rgb(233 30 99)rgb(233 30 99) transparent;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    top: -11px;
+    left: -9px;
+    transition: .5s transform;
+    
+}
+div:hover::after ,
+div:hover::before {
+    transform: rotate(360deg) ;
+    -webkit-transform: rotate(360deg) ;
+    -moz-transform: rotate(360deg) ;
+    -ms-transform: rotate(360deg) ;
+    -o-transform: rotate(360deg) ;
+}
