@@ -1,0 +1,71 @@
+div{
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    display: grid;
+    margin: 100px auto;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border: 10px solid #e32355 ;
+    border-right-color:transparent ;
+    position: relative;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+div::after{
+    content: "";
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    display: grid;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border: 10px solid #20a2f8 ;
+    border-left-color:transparent ;
+    transform: translate(-24% , -24%);
+    animation-name: change-color;
+}
+    @keyframes spin {
+        to {
+          transform: rotate(360deg);
+          -webkit-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+}
+    
+}
+
+div::before{
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: grid;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border: 10px solid #fca300 ;
+    border-top-color:transparent ;
+    transform: translate(-29% , -29%);
+    -webkit-transform: translate(-29% , -29%);
+    -moz-transform: translate(-29% , -29%);
+    -ms-transform: translate(-29% , -29%);
+    -o-transform: translate(-29% , -29%);
+    animation-name: change-color;
+}
+   div:hover{
+    animation-play-state: paused;
+    
+}
