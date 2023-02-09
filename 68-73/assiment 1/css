@@ -1,0 +1,34 @@
+
+
+
+h1{
+    width:150px ;
+    margin:100px auto;
+    background-color: #ff5722;
+    height: 100px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    font-size: 40px;
+}
+h1::after{
+    content: "";
+    background-color: #ff5722;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    transform: skew(186deg,7deg);
+    z-index: -2;
+}
+h1::before{
+    content: "";
+    background-color: #ff5722;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    transform: skew(172deg,355deg);
+    z-index: -1;
+
+}
