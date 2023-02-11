@@ -1,0 +1,4 @@
+div div:not(:last-of-type):not(:first-of-type) ,div p
+{
+    color: red;
+}
