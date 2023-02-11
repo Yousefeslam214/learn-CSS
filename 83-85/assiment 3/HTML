@@ -1,0 +1,33 @@
+<!DOCTYpE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+
+    <div class="parent">
+        <div class="container" id="one">
+          <div class="header">Product One</div>
+          <p>This is product</p>
+        </div>
+        <div class="container" id="two">
+          <div class="header">Product Two</div>
+          <p>This is product</p>
+        </div>
+        <div class="container" id="three">
+          <div class="header">Product Three</div>
+          <p>This is product</p>
+        </div>
+        <div class="container" id="four">
+          <div class="header">Product Four</div>
+          <p>This is product</p>
+        </div>
+      </div>
+    
+</body>
+</html>
