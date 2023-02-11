@@ -1,0 +1,30 @@
+.parent{
+    display: flex;
+    
+    color:#2ea79c;
+    margin: 0px ;
+   height: 100px;
+   flex-wrap: wrap;
+   width: 100%;
+   justify-content: space-evenly ;
+   align-content: space-between;
+}
+.container {
+    width: 100%;
+    background-color: #EEEEEE;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 10px;
+  }
+@media (min-width: 768px) {
+    .container {
+      width: calc(50% - 40px);
+    }}
+
+
+    @media (min-width: 992px) {
+         .container {
+           width: calc(25% - 40px);
+     }}
